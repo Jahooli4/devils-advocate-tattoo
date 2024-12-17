@@ -1,10 +1,63 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# User Experience (UX)
+## User Stories:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+|Site owner: |Priority: |
+|:------------------ |----------|
+|As a site owner I want users to be able to easily access and navigate the site. |Must have |
+|As a site owner I want users to be able to see examples of my existing portfolio. | Must have |
+|As a site owner I want to be able to log in and see my booked appointments. | Must have |
+|As a site owner I want to be able to make certain days unavailable for users to book. | Should have |
+|As a site owner I want users to be encouraged to make an account. | Must have |
+|As a site owner I want users to be encouraged to make an appointment. | Must have |
+|As a site owner I want users to be able to edit their appointment. | Must have |
+|As a site owner I want users to be able to cancel their appointment. | Must have|
+|As a site owner I want users to be able to easily get in contact. | Must have |
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+|New user: |Priority: |
+|:-------- |----------|
+|As a new user I want to easily understand the purpose of the site. | Must have|
+|As a new user I want to easily and intuitively navigate the site. | Must have|
+|As a new user I want to be able to see the artist's previous work portfolio. | Must hvae|
+|As a new user I want to easily create an account. | Must have|
+|As a new user I want to see the artist's social media presence. | Could have|
+|As a new user I want to be able to easily contact the business. | Must have|
+
+
+
+
+
+Scope Plane
+The website should have a link to the home page visible at all times so the user can reset the quiz without using browser navigation buttons.
+The website should not allow user to return to previous question as they will have already been shown the correct answer.
+The website should have a welcome message for the user that concisely describes the purpose of the site.
+The website should be visually appealing to the user and be styled in a way that is relevant to the Harry Potter theme.
+The website background should change colour when the user selects their house.
+The website should give the user a choice in level difficulty for the quiz.
+The website should keep a running total of the user's score and display this to them.
+The website should let the user know whether they have selected the correct answer or not.
+The website should display the user's total score and an end of quiz message after 10 questions have been answered.
+Structure Plane
+(All 'pages' are on one site page and are hidden or displayed via display: block/hidden css)
+Site logo/title
+Home page
+
+Welcome message that briefly describes quiz
+User is invited to choose their Hogwarts house via buttons (background changes colour once selected and Level options appear)
+Level selection options (Easy, Medium, Difficult)
+Photo of the main characters as background.
+Quiz page
+
+Level difficulty based on user selection
+Randomly generated question
+4 answer buttons with hover effects
+Running score (score/current question number)
+End game page
+
+Final score is displayed out of 10
+End of game message is displayed (generated based on score)
+'Play again' button to encourage user to restart the game or try 
 
 ## Gitpod Reminders
 
