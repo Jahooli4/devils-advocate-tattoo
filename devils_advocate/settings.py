@@ -23,14 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=5c$_f(lwu(l3_)$kz0u5ku$41$(pnd9o$y#^(c5p*uiys&uql'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-jahooli4-devilsadvocate-7wutrd8en17.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-jahooli4-devilsadvocate-7wutrd8en17.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'booking.apps.BookingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
