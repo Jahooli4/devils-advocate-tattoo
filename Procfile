@@ -1,1 +1,1 @@
-web: gunicorn devils-advocate-tattoo.wsgi
+web: gunicorn devils_advocate.wsgi
