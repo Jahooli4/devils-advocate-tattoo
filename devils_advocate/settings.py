@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['8000-jahooli4-devilsadvocate-7wutrd8en17.ws.codeinstitute-ide.
 # Application definition
 
 INSTALLED_APPS = [
-    'booking.apps.BookingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
